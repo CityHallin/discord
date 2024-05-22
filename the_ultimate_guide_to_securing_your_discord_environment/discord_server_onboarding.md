@@ -12,7 +12,9 @@ Below are examples of different onboarding methods that can be used to facilitat
 ## Native Discord Onboarding <a name="discordonboard"></a>
 
 ### Setup
-Here is an example guide to enabling a well-rounded member onboard process using the native Discord feature set:
+Here is an example guide to enabling a well-rounded member onboard process using the native Discord Onboarding feature along with an advanced strategy implementing something called a **Non-Member Jail**. This forces human members to go through the native Discord onboarding and accept the server rules before they can see resources with other members. If a bot or non-human account tries to join with out clicking their way through the onboarding process, they will be placed in this jail feature that will not allow the account to interact with the server or other members giving a good layer of protection. 
+
+> Important: If you intend for your Discord Server to be enabled for Discord Discovery in the future, do not use the **Non-Member Jail** method. Just set up the native Discord Onboarding normally. 
 
 - On your Discord server, we want to get away from using the @Everyone role as much as possible. 
 
